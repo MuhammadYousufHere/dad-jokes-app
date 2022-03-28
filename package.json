@@ -1,0 +1,49 @@
+{
+  "name": "dad-jokes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://MuhammadYousufHere.github.io/dad-jokes-app",
+  "scripts": {
+    "predeploy": "npm run dev",
+    "deploy": "gh-pages -d public",
+    "start": "webpack serve --mode development",
+    "build": "webpack -c webpack.config.js",
+    "dev": "webpack -c webpack.config.prod.js"
+  },
+  "keywords": [],
+  "author": "Muhammad Yousuf",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.8",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.5.1",
+    "file-loader": "^6.2.0",
+    "gh-pages": "^3.2.3",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.6",
+    "node-sass": "^7.0.1",
+    "regenerator-runtime": "^0.13.9",
+    "sass": "^1.46.0",
+    "sass-loader": "^12.4.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.64.3",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "axios": "^0.26.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hot-loader": "^4.13.0",
+    "react-redux": "^7.2.6"
+  }
+}
